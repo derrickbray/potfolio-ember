@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+
+  &__top {
+    padding: 1rem;
+    background: gray;
+  }
+  &__content {
+    flex-grow: 1;
+    // background: gray;
+  }
+}
