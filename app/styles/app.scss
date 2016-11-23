@@ -1,5 +1,7 @@
-$c-primary: #607D8B;
+$c-primary: #D84315;
 $c-primary-text: #ECEFF1;
+$c-background: #CFD8DC;
+$c-black: #334;
 
 
 @import "_reset";
@@ -8,8 +10,7 @@ $c-primary-text: #ECEFF1;
 @import "_hero";
 
 .grid__title {
-  color: $c-primary;
-  border-bottom: 0.2rem solid $c-primary;
+  // border-bottom: 0.2rem solid $c-black;
   // font-family: 'Yeseva One', cursive;
 }
 
@@ -17,18 +18,26 @@ $c-primary-text: #ECEFF1;
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  margin: 0 -1rem;
+  margin: 2rem -1rem;
 
   &__item {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     width: calc(100% / 3 - 2rem);
+    min-width: 15rem;
     margin: 1rem;
     padding: 1rem;
     box-shadow: 0.2rem 0.2rem 0.4rem rgba(0,0,0,0.4);
+    background: white;
 
     &-image {
-      border: 1px solid $c-primary;
+      margin: -1rem;
+      // border: 1px solid $c-primary;
+    }
+    &-description {
+      margin: 2rem auto;
+      margin-bottom: 0;
     }
   }
 
