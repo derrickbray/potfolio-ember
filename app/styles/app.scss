@@ -5,25 +5,18 @@ $c-primary-text: #ECEFF1;
 @import "_reset";
 @import "_full-page";
 @import "_nav";
+@import "_hero";
 
-.hero {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  background: url('../portfolio-hero.jpeg') no-repeat center center fixed;
-  background-size: cover;
+.grid__title {
+  color: $c-primary;
+  border-bottom: 0.2rem solid $c-primary;
+  // font-family: 'Yeseva One', cursive;
+}
 
-  &__content {
+.grid {
+  &__item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    color: $c-primary-text;
-  }
-
-  &__header {
-    font-family: 'Yeseva One', cursive;
-  }
-
-  &__tag {
+    box-shadow: 0.2rem 0.2rem 0.4rem rgba(0,0,0,0.4);
   }
 }

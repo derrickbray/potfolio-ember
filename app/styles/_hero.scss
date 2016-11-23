@@ -1,0 +1,21 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: url('../portfolio-hero.jpeg') no-repeat center center fixed;
+  background-size: cover;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $c-primary-text;
+  }
+
+  &__header {
+    font-family: 'Yeseva One', cursive;
+  }
+
+  &__tag {
+  }
+}
