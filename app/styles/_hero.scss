@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 92vh;
   background: url('../portfolio-hero.jpeg') no-repeat center center fixed;
   background-size: cover;
 
@@ -13,9 +13,15 @@
   }
 
   &__header {
+    margin-bottom: 0;
     font-family: 'Yeseva One', cursive;
+    font-size: 5rem;
   }
 
   &__tag {
+    color: $c-primary;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
   }
 }

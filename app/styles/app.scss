@@ -1,4 +1,4 @@
-$c-primary: #D84315;
+$c-primary: #00796B;
 $c-primary-text: #ECEFF1;
 $c-background: #CFD8DC;
 $c-black: #334;
@@ -33,8 +33,12 @@ $c-black: #334;
 
     &-image {
       margin: -1rem;
-      // border: 1px solid $c-primary;
     }
+
+    &-link {
+      margin-top: 1rem;
+    }
+
     &-description {
       margin: 2rem auto;
       margin-bottom: 0;
