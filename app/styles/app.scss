@@ -37,6 +37,10 @@ $c-black: #334;
 
     &-link {
       margin-top: 1rem;
+      color: $c-primary;
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 1.2rem;
     }
 
     &-description {
