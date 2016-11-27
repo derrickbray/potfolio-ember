@@ -1,0 +1,39 @@
+.grid__title {
+  // border-bottom: 0.2rem solid $c-black;
+  // font-family: 'Yeseva One', cursive;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin: 2rem -1rem;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: calc(100% / 3 - 2rem);
+    min-width: 15rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem rgba(0,0,0,0.4);
+    background: white;
+
+    &-image {
+      margin: -1rem;
+    }
+
+    &-link {
+      margin-top: 1rem;
+      color: $c-primary;
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 1.2rem;
+    }
+
+    &-description {
+      margin: 2rem auto 0;
+    }
+  }
+}
