@@ -1,15 +1,15 @@
 .hero {
   display: flex;
   justify-content: center;
-  height: 92vh;
-  background: url('../portfolio-hero.jpeg') no-repeat center center fixed;
+  height: 92.35vh;
+  background: url('../earth.jpg') no-repeat center center fixed;
   background-size: cover;
 
   &__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $c-primary-text;
+    color: $c-primary;
   }
 
   &__header {
@@ -20,10 +20,15 @@
   }
 
   &__tag {
-    color: $c-primary;
     text-align: center;
     font-size: 2rem;
-    font-weight: bold;
-    animation-delay: 1s;
+    // font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bolder;
+    animation-delay: 1.2s;
+
+    a {
+      color: $c-primary-text;
+      text-decoration: none;
+    }
   }
 }

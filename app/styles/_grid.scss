@@ -1,8 +1,6 @@
 .grid__title {
-  // border-bottom: 0.2rem solid $c-black;
-  // font-family: 'Yeseva One', cursive;
   text-align: center;
-  animation-delay: 1s;
+  animation-delay: 0.8s;
 }
 
 .grid {
@@ -24,6 +22,8 @@
 
     &:hover {
       transform: scale(1.15);
+      transition: .7s;
+
     }
 
     &-image {
@@ -36,6 +36,10 @@
       text-decoration: none;
       font-weight: bolder;
       font-size: 1.2rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     &-description {
