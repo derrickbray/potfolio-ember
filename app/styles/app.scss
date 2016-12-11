@@ -15,6 +15,12 @@ $c-black: #334;
   display: flex;
   justify-content: space-between;
   padding: 0 6rem;
-  color: $c-primary-text;
+  // color: $c-primary-text;
   animation-delay: 1.3s;
+}
+
+.bold {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: large;
 }
