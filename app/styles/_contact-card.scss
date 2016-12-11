@@ -1,0 +1,72 @@
+.icon-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6rem;
+  animation-delay: 1.3s;
+
+  a {
+    color: $c-primary;
+  }
+}
+
+.bold {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: large;
+}
+
+.section-contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact-card {
+  width: 100%;
+  margin: 4rem 0;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0,0,0,0.4);
+
+  &:hover {
+    transform: scale(1.15);
+    transition: .7s;
+
+  }
+}
+
+.card-title {
+  width: 100%;
+  text-align: center;
+  color: $c-primary;
+  font-size: 2rem;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  a {
+    color: $c-primary;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.card__icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  a {
+    color: $c-primary;
+  }
+}
