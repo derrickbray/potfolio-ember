@@ -10,12 +10,15 @@ $c-black: #334;
 @import "_hero";
 @import "_grid";
 
-
 .icon-box {
   display: flex;
   justify-content: space-between;
   padding: 0 6rem;
   animation-delay: 1.3s;
+
+  a {
+    color: $c-primary;
+  }
 }
 
 .bold {
@@ -31,9 +34,11 @@ $c-black: #334;
 }
 
 .contact-card {
-  width: 50%;
+  width: 100%;
   margin: 4rem 0;
+  padding: 1rem;
   background: white;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0,0,0,0.4);
 }
 
 .card-title {
@@ -49,10 +54,15 @@ $c-black: #334;
 }
 
 .card-item {
-
+  font-size: 1.5rem;
 }
 
 .card__icon-box {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+
+  a {
+    color: $c-primary;
+  }
 }
