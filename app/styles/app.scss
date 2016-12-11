@@ -3,6 +3,7 @@ $c-primary: #283593;
 $c-primary-text: #ECEFF1;
 $c-background: #CFD8DC;
 $c-black: #334;
+// @import fa-font-path:   "../font";
 @import "_reset";
 @import "_full-page";
 @import "_nav";
@@ -10,6 +11,10 @@ $c-black: #334;
 @import "_grid";
 
 
-.transform {
-
+.icon-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6rem;
+  color: $c-primary-text;
+  animation-delay: 1.3s;
 }
