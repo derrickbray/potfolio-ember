@@ -39,6 +39,12 @@ $c-black: #334;
   padding: 1rem;
   background: white;
   box-shadow: 0.2rem 0.2rem 0.4rem rgba(0,0,0,0.4);
+
+  &:hover {
+    transform: scale(1.15);
+    transition: .7s;
+
+  }
 }
 
 .card-title {
