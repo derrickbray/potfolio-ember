@@ -10,3 +10,56 @@ $c-black: #334;
 @import "_hero";
 @import "_grid";
 @import "_contact-card";
+
+.skillz {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.skill-item {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+
+  &:hover {
+    transform: scale(1.15);
+    transition: .7s;
+  }
+}
+
+.html {
+  color: blue;
+  border: 1px solid blue;
+}
+.css {
+  color: #206fa8;
+  border: 1px solid #206fa8;
+}
+.js {
+  color: #9cd5e0;
+  border: 1px solid #9cd5e0;
+}
+.node {
+  color: #72aa62;
+  border: 1px solid #72aa62;
+}
+.vue {
+  color: #35495e;
+  border: 1px solid #35495e;
+}
+.ember {
+  color: #e46551;
+  border: 1px solid #e46551;
+}
+.adonis {
+  color: #744d82;
+  border: 1px solid #744d82;
+}
+.bulma {
+  color: #01d1b2;
+  border: 1px solid #01d1b2;
+}
+.materialize {
+  color: #ee6e73;
+  border: 1px solid #ee6e73;
+}
