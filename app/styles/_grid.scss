@@ -24,6 +24,10 @@
     &:hover {
       transform: scale(1.15);
       transition: .7s;
+
+      @media(max-width: 1000px) {
+        transform: scale(1);
+      }
     }
 
     &-image {
