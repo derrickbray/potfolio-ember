@@ -40,92 +40,46 @@
 }
 
 .html {
-  color: blue;
-  border: 1px solid blue;
-
-  &:hover {
-    background: blue;
-    color: white;
-  }
+  background: blue;
+  color: white;
 }
 
 .css {
-  color: #206fa8;
-  border: 1px solid #206fa8;
-
-  &:hover {
     background: #206fa8;
     color: white;
-  }
 }
 
 .js {
-  color: #9cd5e0;
-  border: 1px solid #9cd5e0;
-
-  &:hover {
     background: #9cd5e0;
     color: white;
-  }
 }
 
 .node {
-  color: #72aa62;
-  border: 1px solid #72aa62;
-
-  &:hover {
     background: #72aa62;
     color: white;
-  }
 }
 
 .vue {
-  color: #35495e;
-  border: 1px solid #35495e;
-
-  &:hover {
     background: #35495e;
     color: white;
-  }
 }
 
 .ember {
-  color: #e46551;
-  border: 1px solid #e46551;
-
-  &:hover {
     background: #e46551;
     color: white;
-  }
 }
 
 .adonis {
-  color: #744d82;
-  border: 1px solid #744d82;
-
-  &:hover {
     background: #744d82;
     color: white;
-  }
 }
 
 .bulma {
-  color: #01d1b2;
-  border: 1px solid #01d1b2;
-
-  &:hover {
     background: #01d1b2;
     color: white;
-  }
 }
 
 .materialize {
-  color: #ee6e73;
-  border: 1px solid #ee6e73;
-
-  &:hover {
     background: #ee6e73;
     color: white;
-
-  }
 }
