@@ -22,8 +22,9 @@ $c-black: #334;
   border-radius: 0.4rem;
 
   &:hover {
-    transform: scale(1.15);
+    transform: scale(1.3);
     transition: .7s;
+    animation: active;
   }
 }
 
