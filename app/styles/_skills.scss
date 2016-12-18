@@ -5,11 +5,6 @@
   width: 100%;
 }
 
-// .skill-item {
-//   padding: 0.5rem;
-//   border-radius: 0.4rem;
-// }
-
 .html {
   padding: 0.5rem;
   border-radius: 0.4rem;
@@ -17,32 +12,8 @@
   color: white;
 
   &:hover {
-    animation: skew 0.5s;
+    animation: zoomOutUp 0.5s;
     animation-direction: alternate;
-    @keyframes skew {
-      0% {
-        transform: rotate(-5deg);
-      }
-
-      25% {
-        transform: skew(10deg);
-      }
-
-      50% {
-        transform: scale(.5, 1.5);
-
-      }
-
-      75% {
-        transform: skew(-10deg);
-        transform: scale(1.5, .5);
-      }
-
-      100% {
-        transform: rotate(5deg);
-        transform: scale(.7);
-      }
-    }
   }
 }
 
@@ -81,15 +52,19 @@
   }
 }
 
+.wrap-vue {
+  &:hover {
+    .vue {
+      animation: hinge 1s;
+    }
+  }
+}
+
 .vue {
   padding: 0.5rem;
   border-radius: 0.4rem;
   background: #35495e;
   color: white;
-
-  &:hover {
-    animation: hinge 1s;
-  }
 }
 
 .ember {
