@@ -53,89 +53,125 @@
   color: white;
 
   &:hover {
-    animation: scale 0.5s;
+    animation: headShake 0.5s;
     animation-direction: alternate;
-    @keyframes scale {
+    @keyframes headShake {
+      0% {
+        transform: translateX(0);
+      }
+
+      6.5% {
+        transform: translateX(-6px) rotateY(-9deg);
+      }
+
+      18.5% {
+        transform: translateX(5px) rotateY(7deg);
+      }
+
+      31.5% {
+        transform: translateX(-3px) rotateY(-5deg);
+      }
+
+      43.5% {
+        transform: translateX(2px) rotateY(3deg);
+      }
+
       50% {
-        transform: scale(.5, 1.5);
-
-      }
-
-      75% {
-        transform: scale(1.5, .5);
-      }
-
-      100% {
-        transform: scale(.7);
+        transform: translateX(0);
       }
     }
   }
 }
+  .js {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background: #9cd5e0;
+    color: white;
 
-.js {
-  padding: 0.5rem;
-  border-radius: 0.4rem;
-  background: #9cd5e0;
-  color: white;
+    &:hover {
+      animation: shake 0.9s;
+      animation-direction: alternate;
+      @keyframes shake {
+        from,
+        to {
+          transform: translate3d(0, 0, 0);
+        }
 
-  &:hover {
-    animation: skew 0.5s;
-    animation-direction: alternate;
-    @keyframes skew {
-      50% {
-        transform: scale(.5, 1.5);
+        10%,
+        30%,
+        50%,
+        70%,
+        90% {
+          transform: translate3d(-10px, 0, 0);
+        }
 
-      }
-
-      75% {
-        transform: scale(1.5, .5);
-      }
-
-      100% {
-        transform: scale(.7);
+        20%,
+        40%,
+        60%,
+        80% {
+          transform: translate3d(10px, 0, 0);
+        }
       }
     }
   }
-}
 
-.node {
-  padding: 0.5rem;
-  border-radius: 0.4rem;
-  background: #72aa62;
-  color: white;
-}
+  .node {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background: #72aa62;
+    color: white;
+  }
 
-.vue {
-  padding: 0.5rem;
-  border-radius: 0.4rem;
-  background: #35495e;
-  color: white;
-}
+  .vue {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background: #35495e;
+    color: white;
+  }
 
-.ember {
-  padding: 0.5rem;
-  border-radius: 0.4rem;
-  background: #e46551;
-  color: white;
-}
+  .ember {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background: #e46551;
+    color: white;
 
-.adonis {
-  padding: 0.5rem;
-  border-radius: 0.4rem;
-  background: #744d82;
-  color: white;
-}
+    &:hover {
+      animation: scale 0.5s;
+      animation-direction: alternate;
+      @keyframes scale {
+        50% {
+          transform: scale(.5, 1.5);
 
-.bulma {
-  padding: 0.5rem;
-  border-radius: 0.4rem;
-  background: #01d1b2;
-  color: white;
-}
+        }
 
-.materialize {
-  padding: 0.5rem;
-  border-radius: 0.4rem;
-  background: #ee6e73;
-  color: white;
-}
+        75% {
+          transform: scale(1.5, .5);
+        }
+
+        100% {
+          transform: scale(.7);
+        }
+      }
+    }
+  }
+
+  .adonis {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background: #744d82;
+    color: white;
+  }
+
+  .bulma {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background: #01d1b2;
+    color: white;
+  }
+
+  .materialize {
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background: #ee6e73;
+    color: white;
+  }
