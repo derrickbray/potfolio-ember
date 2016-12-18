@@ -40,7 +40,7 @@
 .wrap-js {
   &:hover {
     .js {
-      animation: shake 1s;
+      animation: jello 1s;
       animation-direction: alternate;
     }
   }
@@ -134,7 +134,7 @@
 .wrap-materialize {
   &:hover {
     .materialize {
-      animation: rollOut 1s;
+      animation: rotateOutDownRight 1s;
       animation-direction: alternate;
     }
   }
