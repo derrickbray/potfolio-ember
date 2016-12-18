@@ -16,109 +16,126 @@
   background: blue;
   color: white;
 
+  &:hover {
+    animation: skew 0.5s;
+    animation-direction: alternate;
+    @keyframes skew {
+      0% {
+        transform: rotate(-5deg);
+      }
 
-    &:hover {
-      animation: skew 0.5s;
-      animation-direction: alternate;
-      @keyframes skew {
-        0% {
-          transform: rotate(-5deg);
-        }
+      25% {
+        transform: skew(10deg);
+      }
 
-        25% {
-          transform: skew(10deg);
-        }
+      50% {
+        transform: scale(.5, 1.5);
 
-        50% {
-          transform: scale(.5, 1.5);
+      }
 
-        }
+      75% {
+        transform: skew(-10deg);
+        transform: scale(1.5, .5);
+      }
 
-        75% {
-          transform: skew(-10deg);
-          transform: scale(1.5, .5);
-        }
-
-        100% {
-          transform: rotate(5deg);
-          transform: scale(.7);
-        }
+      100% {
+        transform: rotate(5deg);
+        transform: scale(.7);
       }
     }
+  }
 }
 
 .css {
-    padding: 0.5rem;
-    border-radius: 0.4rem;
-    background: #206fa8;
-    color: white;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #206fa8;
+  color: white;
 
+  &:hover {
+    animation: scale 0.5s;
+    animation-direction: alternate;
+    @keyframes scale {
+      50% {
+        transform: scale(.5, 1.5);
 
-      &:hover {
-        animation: skew 0.5s;
-        animation-direction: alternate;
-        @keyframes skew {
-          50% {
-            transform: scale(.5, 1.5);
-
-          }
-
-          75% {
-            transform: scale(1.5, .5);
-          }
-
-          100% {
-            transform: scale(.7);
-          }
-        }
       }
+
+      75% {
+        transform: scale(1.5, .5);
+      }
+
+      100% {
+        transform: scale(.7);
+      }
+    }
+  }
 }
 
 .js {
-    padding: 0.5rem;
-    border-radius: 0.4rem;
-    background: #9cd5e0;
-    color: white;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #9cd5e0;
+  color: white;
+
+  &:hover {
+    animation: skew 0.5s;
+    animation-direction: alternate;
+    @keyframes skew {
+      50% {
+        transform: scale(.5, 1.5);
+
+      }
+
+      75% {
+        transform: scale(1.5, .5);
+      }
+
+      100% {
+        transform: scale(.7);
+      }
+    }
+  }
 }
 
 .node {
-    padding: 0.5rem;
-    border-radius: 0.4rem;
-    background: #72aa62;
-    color: white;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #72aa62;
+  color: white;
 }
 
 .vue {
-    padding: 0.5rem;
-    border-radius: 0.4rem;
-    background: #35495e;
-    color: white;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #35495e;
+  color: white;
 }
 
 .ember {
-    padding: 0.5rem;
-    border-radius: 0.4rem;
-    background: #e46551;
-    color: white;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #e46551;
+  color: white;
 }
 
 .adonis {
-    padding: 0.5rem;
-    border-radius: 0.4rem;
-    background: #744d82;
-    color: white;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #744d82;
+  color: white;
 }
 
 .bulma {
-    padding: 0.5rem;
-    border-radius: 0.4rem;
-    background: #01d1b2;
-    color: white;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #01d1b2;
+  color: white;
 }
 
 .materialize {
-    padding: 0.5rem;
-    border-radius: 0.4rem;
-    background: #ee6e73;
-    color: white;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #ee6e73;
+  color: white;
 }
