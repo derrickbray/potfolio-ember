@@ -1,7 +1,7 @@
 {
   "name": "potfolio-ember",
   "version": "0.0.0",
-  "description": "Small description for potfolio-ember goes here",
+  "description": "Derrick Bray's Portfolio",
   "private": true,
   "directories": {
     "doc": "doc",
