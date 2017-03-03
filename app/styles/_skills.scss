@@ -1,0 +1,148 @@
+.skillz {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.wrap-html {
+  &:hover {
+    .html {
+      animation: zoomOutUp 1s;
+      animation-direction: alternate;
+    }
+  }
+}
+
+.html {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: blue;
+  color: white;
+}
+
+.wrap-css {
+  &:hover {
+    .css {
+      animation: swing 1s;
+    }
+  }
+}
+
+.css {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #206fa8;
+  color: white;
+  transform-origin: top center;
+}
+
+.wrap-js {
+  &:hover {
+    .js {
+      animation: jello 1s;
+      animation-direction: alternate;
+    }
+  }
+}
+
+.js {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #9cd5e0;
+  color: white;
+}
+
+.wrap-node {
+  &:hover {
+    .node {
+      animation: wobble 1s;
+    }
+  }
+}
+
+.node {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #72aa62;
+  color: white;
+}
+
+.wrap-vue {
+  &:hover {
+    .vue {
+      animation: hinge 1s;
+    }
+  }
+}
+
+.vue {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #35495e;
+  color: white;
+}
+
+.wrap-ember {
+  &:hover {
+    .ember {
+      animation: rubberBand 1s;
+      animation-direction: alternate;
+    }
+  }
+}
+
+.ember {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #e46551;
+  color: white;
+}
+
+.wrap-adonis {
+  &:hover {
+    .adonis {
+      animation: flip 1.2s;
+      backface-visibility: visible;
+    }
+  }
+}
+
+.adonis {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #744d82;
+  color: white;
+}
+
+.wrap-bulma {
+  &:hover {
+    .bulma {
+      animation: bounce 1s;
+      transform-origin: center bottom;
+    }
+  }
+}
+
+.bulma {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #01d1b2;
+  color: white;
+}
+
+.wrap-materialize {
+  &:hover {
+    .materialize {
+      animation: rotateOutDownRight 1s;
+      animation-direction: alternate;
+    }
+  }
+}
+
+.materialize {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background: #ee6e73;
+  color: white;
+}

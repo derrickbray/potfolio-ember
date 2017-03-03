@@ -1,0 +1,28 @@
+.top-nav {
+  position: fixed;
+  width: 100%;
+  right: 50%;
+  margin-top: 0.2rem;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  transform: translate(50%);
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+
+  &__group {
+    display: flex;
+    margin: -1rem;
+  }
+  &__item {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  a {
+    display: inline-block;
+    padding: 1rem;
+    color: $c-primary;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,18 @@
+<div class="app">
+  <div class="app__top">
+    <div class="container">
+      <div class="top-nav">
+        <div class="top-nav__group">
+          <h1 class="top-nav__item">{{#link-to "index"}}Derrick Bray{{/link-to}}</h1>
+        </div>
+        <div class="top-nav__group">
+          {{!-- <h2 class="top-nav__item">{{#link-to "project"}}Projects{{/link-to}}</h2> --}}
+          <h2 class="top-nav__item">{{#link-to "index"}}Resume{{/link-to}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="app__content">
+    {{outlet}}
+  </div>
+</div>
