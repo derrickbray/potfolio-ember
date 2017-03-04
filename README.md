@@ -1,4 +1,4 @@
-# Portfolio-Ember
+# Potfolio-ember
 
 This is my second attempt to build a portfolio. It was built in EmberJS.  Ultimately, I felt that the site
 had to many animations and was too bulky for a simple portfolio.
